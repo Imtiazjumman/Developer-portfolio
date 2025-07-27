@@ -131,6 +131,9 @@ main{
     margin-top: 130px;
     margin-bottom: 130px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .about-information .info-title{
     font-size: 18px;
@@ -181,4 +184,52 @@ main{
 .skill-description{
     font-size: 16px;
     color:#757575;
+}
+
+/* Resume Style */
+.resume{
+    margin-bottom: 130px;
+}
+.section-title{
+    font-size: 35px ;
+    font-weight: bold;
+    text-align: center;
+}
+
+.resume-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.resume-container h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.resume-container h4{
+    font-size: 25px;
+    color: #474747;
+}
+.resume-container .year{
+    font-size: 20px;
+    color: #757575;
+    line-height: 10px;
+}
+.edu-description{
+    font-size: 16px;
+    color: #757575;
+    letter-spacing: 2px;
+}
+.dev-exp-description{
+    font-size: 16px;
+    color: #757575;
+    letter-spacing: 2px;
+}
+.resume-col-title{
+    line-height: 30px;
+}
+.edu-exp-title{
+    line-height: 10px;
+}
+.dev-exp-title{
+    line-height: 10px;
 }
